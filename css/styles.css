@@ -1,0 +1,23 @@
+img {
+    max-width: 25rem;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.discountPrice {
+    color: red;
+    font-weight: bold;
+}
+
+.formerPrice {
+    text-decoration: line-through;
+    font-weight: bold;
+}
+
+.newPrice {
+    font-weight: bold;
+}
