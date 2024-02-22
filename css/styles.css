@@ -1,11 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
 img {
     max-width: 25rem;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: gray;
 }
 
 .mainContainer {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    align-items: center;
+    width: 100vw;
 }
 
 .discountPrice {
